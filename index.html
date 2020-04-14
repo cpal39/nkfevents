@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NKF Events</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+		<a class="navbar-brand" href="#">
+			<img src="favicon.png" width="50" height="50" alt=""> NKF Events
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#triathlonDiv">Triathlon
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#cookingDiv">Cook-Off</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#registrationDiv">Registration</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div id="titlePageDiv">
+		<div id="titlePage">
+			<h1 id="title">NATIONAL <span id="kidney">KIDNEY</span> FOUNDATION</h1>
+			<div id="titlePageBottom">
+				<h2 id="subtitle">Triathlon & Cook-Off</h2>
+				<div class="buttons">
+					<a href="https://team.kidney.org/index.cfm?fuseaction=donorDrive.personalCampaign&participantID=1055" target="_blank" class="btn btn-default btn-lg fa fa-money">
+						<span class="buttonLabel">Donate</span>
+					</a>
+					<a href="https://www.instagram.com/nkftriathlon" target="_blank" class="btn btn-default btn-lg fa fa-instagram">
+						<span class="buttonLabel">Instagram</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="triathlonDiv">
+		<div class="divContents" id="triathlon">
+			<h5>Triathlon</h5>
+			<p>
+				The Triathlon will be held at Round Valley Reservoir in New Jersey.
+				<a href="https://team.kidney.org/index.cfm?fuseaction=donorDrive.personalCampaign&participantID=1055" target="_blank">
+					A minimum donation of $15
+				</a>  will be required to participate in the event (see registration section below). All participants will receive a participation ribbon. 1st-3rd place will get medals. Water stations will be set up along the route. Lifeguards on boats will be monitoring the swimmers, and will be launched from the boat drop area. We will have medical staff just in case. The State Park Police will be there in case anything happens. Most triathlons have people bring their own bikes, so we’re going to do that too. We will provide bike racks.
+			</p>
+			<p>
+				Our event merchandise includes t-shirts in a variety of colors, keychains, and an NKF stress ball.
+			</p>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-12">
+						<div class="card">
+							<img class="card-img-top" src="shirt1.jpg" alt="Card image">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12">
+						<div class="card">
+							<img class="card-img-top" src="shirt2.jpg" alt="Card image">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12">
+						<div class="card">
+							<img class="card-img-top" src="shirt3.jpg" alt="Card image">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-12">
+						<div class="card">
+							<img class="card-img-top" src="keychain1.jpg" alt="Card image">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12">
+						<div class="card">
+							<img class="card-img-top" src="keychain2.jpg" alt="Card image">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12">
+						<div class="card">
+							<img class="card-img-top" src="keychain3.jpg" alt="Card image">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-12">
+						<div class="card">
+							<img class="card-img-top" src="stressBall.jpg" alt="Card image">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="cookingDiv">
+			<div class="divContents" id="cooking">
+				<h5>Cook-Off</h5>
+				<p>
+					People can share their own healthy kidney friendly recipes on Instagram with the hashtag #kidneycookoff or with the registration section below. Using the link below people can vote on recipes, and the winners will be invited to compete in the cookoff. The top recipes will be placed into our cookbook, and the other ones will be discarded. The winners will compete in the cook off for a small cash prize and there will be 3 winners. The contest will only be open to people living in the United States of America. People from other countries can participate in the online recipe submission and voting. They will compete with each other and against celebrity chef Aaron McCargo Jr. Because some of the winners may not be able to afford to come, we will pay from their travel and stay expenses, and their ingredients. The food will be judged based on taste and presentation. Judges are Katie Lee Joel and local chef Joe Koeing.
+				</p>
+				<button type="button" id="voteButton" class="btn btn-primary" data-toggle="modal" data-target="#modal1">Vote Here</button>
+			</div>
+		</div>
+		<div id="registrationDiv">
+			<div class="divContents" id="registration">
+				<h5>Registration</h5>
+				<form id="registerForm">
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="inputFirstName4">First Name</label>
+							<input type="text" class="form-control" placeholder="First name" required>
+						</div>
+						<div class="form-group col-md-6">
+							<label for="inputLastName4">Last Name</label>
+							<input type="text" class="form-control" placeholder="Last name" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputEmail4">Email</label>
+						<input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+					</div>
+					<div class="form-group">
+						<label for="inputAddress">Address</label>
+						<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="inputCity">City</label>
+							<input type="text" class="form-control" id="inputCity" required>
+						</div>
+						<div class="form-group col-md-4">
+							<label for="inputState">State</label>
+							<select class="form-control" id="state" name="state" required>
+								<option value="">N/A</option>
+								<option value="AK">Alaska</option>
+								<option value="AL">Alabama</option>
+								<option value="AR">Arkansas</option>
+								<option value="AZ">Arizona</option>
+								<option value="CA">California</option>
+								<option value="CO">Colorado</option>
+								<option value="CT">Connecticut</option>
+								<option value="DC">District of Columbia</option>
+								<option value="DE">Delaware</option>
+								<option value="FL">Florida</option>
+								<option value="GA">Georgia</option>
+								<option value="HI">Hawaii</option>
+								<option value="IA">Iowa</option>
+								<option value="ID">Idaho</option>
+								<option value="IL">Illinois</option>
+								<option value="IN">Indiana</option>
+								<option value="KS">Kansas</option>
+								<option value="KY">Kentucky</option>
+								<option value="LA">Louisiana</option>
+								<option value="MA">Massachusetts</option>
+								<option value="MD">Maryland</option>
+								<option value="ME">Maine</option>
+								<option value="MI">Michigan</option>
+								<option value="MN">Minnesota</option>
+								<option value="MO">Missouri</option>
+								<option value="MS">Mississippi</option>
+								<option value="MT">Montana</option>
+								<option value="NC">North Carolina</option>
+								<option value="ND">North Dakota</option>
+								<option value="NE">Nebraska</option>
+								<option value="NH">New Hampshire</option>
+								<option value="NJ">New Jersey</option>
+								<option value="NM">New Mexico</option>
+								<option value="NV">Nevada</option>
+								<option value="NY">New York</option>
+								<option value="OH">Ohio</option>
+								<option value="OK">Oklahoma</option>
+								<option value="OR">Oregon</option>
+								<option value="PA">Pennsylvania</option>
+								<option value="PR">Puerto Rico</option>
+								<option value="RI">Rhode Island</option>
+								<option value="SC">South Carolina</option>
+								<option value="SD">South Dakota</option>
+								<option value="TN">Tennessee</option>
+								<option value="TX">Texas</option>
+								<option value="UT">Utah</option>
+								<option value="VA">Virginia</option>
+								<option value="VT">Vermont</option>
+								<option value="WA">Washington</option>
+								<option value="WI">Wisconsin</option>
+								<option value="WV">West Virginia</option>
+								<option value="WY">Wyoming</option>
+							</select>
+						</div>
+						<div class="form-group col-md-2">
+							<label for="inputZip">Zip</label>
+							<input type="text" class="form-control" id="inputZip" required>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-4">
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio1" value="Triathlon" required>
+								<label class="form-check-label" for="inlineRadio1">Triathlon</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio2" value="Cook-Off" required>
+								<label class="form-check-label" for="inlineRadio2">Cook-Off</label>
+							</div>
+						</div>
+						<div class="form-group col-md-4" id="donationCode">
+							<label for="donationCode">Donation Code</label>
+							<input type="text" class="form-control-file" id="inputDonation" required>
+						</div>
+						<div class="form-group col-md-4" id="recipeSubmission">
+							<label for="exampleFormControlFile1">Recipe</label>
+							<input type="file" class="form-control-file" id="inputRecipe" required>
+						</div>
+					</div>
+					<div id="registerButton">
+						<button type="submit" class="btn btn-primary">Register</button>
+					</div>
+				</form>
+				<div id="success">
+					<p>Registered successfully! Please check your email in the coming days for a confirmation message containing your event entrance code.</p>
+				</div>
+			</div>
+		</div>
+		<div id="footerDiv">
+			<div class="divContents" id="footer">
+				30 East 33rd Street, New York, NY 10016 © 2020 National Kidney Foundation Inc.
+			</div>
+		</div>
+		<div class="modal fade" id="modal1" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Not yet!</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>
+							Recipe submissions have not been made public yet. Please check back later.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="script.js"></script>
+	</body>
+	</html>
